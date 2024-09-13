@@ -6,6 +6,9 @@ window.title("notepad")
 window.geometry("400x400")
 window.resizable(False, False)
 
+
+
+
 menu = Menu(window)
 menu_1 = Menu(menu, tearoff=0)
 menu_1.add_command(label="새파일")
